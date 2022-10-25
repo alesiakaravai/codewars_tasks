@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Task
+class ExesAndOhs
   attr_accessor :str
 
   def initialize(str)
