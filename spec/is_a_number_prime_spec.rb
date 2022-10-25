@@ -2,7 +2,7 @@
 
 require 'rspec'
 
-require_relative '../exes_and_ohs'
+require_relative '../is_a_number_prime'
 
 RSpec.describe Task do
   context 'when prime number' do
