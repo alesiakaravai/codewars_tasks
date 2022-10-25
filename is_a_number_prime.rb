@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Task
+class Is_a_number_prime
   attr_accessor :num
 
   def initialize(num)
