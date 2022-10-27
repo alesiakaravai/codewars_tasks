@@ -7,10 +7,14 @@ class Plus1Array
     @array = array
   end
 
+  def valid_numbers?
+    array.all? {|x| (0..9).include?(x)}
+  end
+
   def call
     return nil if array.empty?
 
-    array.each { |x| return nil if x.negative? || x >= 10 }
+    return nil unless valid_numbers?
     array.join('').next.split('').map(&:to_i)
   end
 end
